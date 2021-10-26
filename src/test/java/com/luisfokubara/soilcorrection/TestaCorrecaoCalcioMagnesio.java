@@ -2,6 +2,8 @@ package edu.utfpr.cp.dacom.sa.soilcorrection;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import com.luisfokubara.soilcorrection.correcoes.CorrecaoCalcioMagnesio;
+import com.luisfokubara.soilcorrection.fontes.FonteCalcioMagnesio;
 import org.junit.jupiter.api.Test;
 
 public class TestaCorrecaoCalcioMagnesio {
