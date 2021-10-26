@@ -1,4 +1,4 @@
-package edu.utfpr.cp.dacom.sa.soilcorrection;
+package com.luisfokubara.soilcorrection;
 
 import com.luisfokubara.soilcorrection.conversoes.ConverteKgHaEmP2O5;
 import com.luisfokubara.soilcorrection.conversoes.ConverteMgDm3EmKgHa;

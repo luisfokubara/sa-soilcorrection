@@ -1,5 +1,6 @@
-package edu.utfpr.cp.dacom.sa.soilcorrection;
+package com.luisfokubara.soilcorrection.conversoes;
 
+import com.luisfokubara.soilcorrection.interfaces.Conversao;
 import lombok.NonNull;
 
 public class ConverteKgHaEmK2O 

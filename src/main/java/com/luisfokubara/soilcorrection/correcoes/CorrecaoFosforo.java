@@ -1,7 +1,11 @@
-package edu.utfpr.cp.dacom.sa.soilcorrection;
+package com.luisfokubara.soilcorrection.correcoes;
 
-public class CorrecaoFosforo 
-    implements 
+import com.luisfokubara.soilcorrection.fontes.FonteFosforo;
+import com.luisfokubara.soilcorrection.interfaces.ICorrecaoNutriente;
+import com.luisfokubara.soilcorrection.interfaces.ICorrecaoNutrienteQuantidadeAplicar;
+
+public class CorrecaoFosforo
+    implements
         ICorrecaoNutriente<FonteFosforo>,
         ICorrecaoNutrienteQuantidadeAplicar<FonteFosforo> {
     

@@ -1,9 +1,13 @@
-package edu.utfpr.cp.dacom.sa.soilcorrection;
+package com.luisfokubara.soilcorrection.correcoes;
 
-public class CorrecaoPotassio 
-        implements 
-            ICorrecaoNutriente<FontePotassio>,
-            ICorrecaoNutrienteQuantidadeAplicar<FontePotassio> {
+import com.luisfokubara.soilcorrection.fontes.FontePotassio;
+import com.luisfokubara.soilcorrection.interfaces.ICorrecaoNutriente;
+import com.luisfokubara.soilcorrection.interfaces.ICorrecaoNutrienteQuantidadeAplicar;
+
+public class CorrecaoPotassio
+        implements
+        ICorrecaoNutriente<FontePotassio>,
+        ICorrecaoNutrienteQuantidadeAplicar<FontePotassio> {
 
     public double calculaNecessidadeAdicionarCMolcDm3 (
         double teorSolo,

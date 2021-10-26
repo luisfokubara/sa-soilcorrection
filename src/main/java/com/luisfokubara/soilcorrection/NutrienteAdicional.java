@@ -1,4 +1,4 @@
-package edu.utfpr.cp.dacom.sa.soilcorrection;
+package com.luisfokubara.soilcorrection;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

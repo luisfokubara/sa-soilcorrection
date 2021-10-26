@@ -1,4 +1,4 @@
-package edu.utfpr.cp.dacom.sa.soilcorrection;
+package com.luisfokubara.soilcorrection;
 
 import com.luisfokubara.soilcorrection.EquilibrioCorrecaoCTC;
 import com.luisfokubara.soilcorrection.NutrientesCTC;

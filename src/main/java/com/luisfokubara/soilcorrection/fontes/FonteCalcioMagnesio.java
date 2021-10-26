@@ -1,7 +1,10 @@
-package edu.utfpr.cp.dacom.sa.soilcorrection;
+package com.luisfokubara.soilcorrection.fontes;
 
 import java.util.Set;
 
+import com.luisfokubara.soilcorrection.interfaces.IFonteNutriente;
+import com.luisfokubara.soilcorrection.NomeNutrienteAdicional;
+import com.luisfokubara.soilcorrection.NutrienteAdicional;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
